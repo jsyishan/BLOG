@@ -1,9 +1,7 @@
 
-/*
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 2.5 License
-*/
+
+
+
 
 body {
 	margin: 0;
@@ -497,4 +495,40 @@ a:hover {
 	padding: 50px 50px 50px 50px;
 	padding-bottom: 20px;
 	text-align: justify;
+}
+
+
+
+.main_center {
+    MARGIN: 10px 10px 0px 0px;
+    WIDTH: 600px;
+}
+
+.blog_list {
+    MARGIN: 10px 35px 20px;
+}
+
+.blog_list h1 {
+	color: red;
+    MARGIN: 4px 4px 4px;
+    font-family: inherit;
+    FONT-SIZE: 25px;
+}
+
+.b_passage {
+	margin: 100px,100px,100px,100px;
+	width: 800px;
+	height: 1000px;
+}
+
+.b_passage p {
+	color:red;
+	font-size: 18px;
+}
+
+#p_bo {
+	margin: 10px auto;
+	padding: 30px 50px;
+	border-bottom: 1px solid #D4D4D4;
+	color: #fa22fa;
 }
