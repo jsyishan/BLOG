@@ -532,3 +532,15 @@ a:hover {
 	border-bottom: 1px solid #D4D4D4;
 	color: #fa22fa;
 }
+
+
+.game_list {
+	background: green;
+	MARGIN: 20px 45px 20px;
+}
+
+.game_list h1 {
+	color: red;
+    MARGIN: 4px 4px 4px;
+    font-family: inherit;
+}
