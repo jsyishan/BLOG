@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="DairyServer:jar">
-    <output-path>$PROJECT_DIR$/classes/artifacts/DairyServer_jar</output-path>
-    <root id="archive" name="DairyServer.jar">
-      <element id="module-output" name="DairyServer" />
-      <element id="library" level="module" name="mysql-connector-java-5.1.22-bin.jar" module-name="DairyServer" />
-    </root>
-  </artifact>
-</component>
