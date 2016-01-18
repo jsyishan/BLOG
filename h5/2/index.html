@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CSS3_Transition</title>
+    <link rel="stylesheet" href="css/css3flip.css" />
+</head>
+<body>
+    <header>
+        <h1>Examples about CSS3 Transition</h1>
+    </header>
+
+    <section id="game">
+        <div id="cards">
+
+            <div class="card">
+                <div class="face front"></div>
+                <div class="face back cardFour"></div>
+            </div>
+
+            <div class="card">
+                <div class="face front"></div>
+                <div class="face back cardFive"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>An example......</p>
+    </footer>
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script>
+    $(function() {
+        $("#cards").children().each(function(index) {
+            $(this).click(function() {
+                $(this).toggleClass("card-flipped");
+            });
+        });
+    });
+    </script>
+
+</body>
+</html>
